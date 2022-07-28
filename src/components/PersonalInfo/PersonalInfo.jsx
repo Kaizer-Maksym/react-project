@@ -31,7 +31,10 @@ export const Information = () => {
       <InfoTitle>Project experience</InfoTitle>
       <ProjectList>
         <li>
-          <ProjectLink href="https://kaizer-maksym.github.io/goit-markup-hw-08/">
+          <ProjectLink
+            href="https://kaizer-maksym.github.io/goit-markup-hw-08/"
+            target="_blank"
+          >
             WebStudio -
           </ProjectLink>
           <ProjectDescription>
@@ -41,7 +44,10 @@ export const Information = () => {
         </li>
 
         <li>
-          <ProjectLink href="https://kaizer-maksym.github.io/icecream/">
+          <ProjectLink
+            href="https://kaizer-maksym.github.io/icecream/"
+            target="_blank"
+          >
             IceCream -
           </ProjectLink>
           <ProjectDescription>
@@ -50,7 +56,10 @@ export const Information = () => {
           </ProjectDescription>
         </li>
         <li>
-          <ProjectLink href="https://kaizer-maksym.github.io/filmoteka/">
+          <ProjectLink
+            href="https://kaizer-maksym.github.io/filmoteka/"
+            target="_blank"
+          >
             Filmoteka -
           </ProjectLink>
           <ProjectDescription>

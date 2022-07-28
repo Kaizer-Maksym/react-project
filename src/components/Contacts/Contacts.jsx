@@ -45,17 +45,23 @@ export const Contacts = () => {
       </ContactsList>
       <SocialList>
         <SocialListItem>
-          <SocialLink href="https://github.com/Kaizer-Maksym">
+          <SocialLink href="https://github.com/Kaizer-Maksym" target="_blank">
             <BsGithub size="2.2em" />
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
-          <SocialLink href="https://www.facebook.com/profile.php?id=100042322982281">
+          <SocialLink
+            href="https://www.facebook.com/profile.php?id=100042322982281"
+            target="_blank"
+          >
             <BsFacebook size="2.2em" />
           </SocialLink>
         </SocialListItem>
         <SocialListItem>
-          <SocialLink href="https://www.linkedin.com/feed/?trk=joogle">
+          <SocialLink
+            href="https://www.linkedin.com/feed/?trk=joogle"
+            target="_blank"
+          >
             <BsLinkedin size="2.2em" />
           </SocialLink>
         </SocialListItem>
