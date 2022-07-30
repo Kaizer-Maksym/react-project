@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 export const InfoSection = styled.section`
-  width: 600px;
-  padding: 20px;
+  width: 800px;
+  padding: 30px;
 `;
 
 export const Name = styled.h1`
@@ -14,9 +14,9 @@ export const Name = styled.h1`
 
 export const SummaryText = styled.p`
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: #00000098;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 export const Stack = styled.h3`
@@ -24,15 +24,15 @@ export const Stack = styled.h3`
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `;
 
 export const InfoTitle = styled.h2`
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
 
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 export const ProjectLink = styled.a`
@@ -48,33 +48,33 @@ export const ProjectLink = styled.a`
 `;
 
 export const ProjectList = styled.ul`
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 export const ProjectDescription = styled.span`
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: #00000098;
 `;
 
 export const WorkTitle = styled.h3`
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
 
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #141211;
 `;
 
 export const Duration = styled.p`
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
 
   color: #00000098;
 
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 export const Facility = styled.p`
@@ -88,7 +88,7 @@ export const Facility = styled.p`
 export const WorkList = styled.ul`
   list-style: inside;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: #00000098;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;

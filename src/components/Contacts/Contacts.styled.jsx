@@ -2,32 +2,32 @@ import styled from '@emotion/styled';
 
 export const ContactsSection = styled.section`
   padding: 20px 30px;
-  width: 280px;
+  width: 370px;
   background-color: #1e2939f1;
 `;
 export const ContactTitle = styled.h2`
   color: #ef784dc5;
 
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `;
 export const ContactsList = styled.ul`
   color: rgba(256, 256, 256, 0.5);
-  font-size: 12px;
+  font-size: 16px;
 
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `;
 
 export const ContactsListItem = styled.li`
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 `;
 
 export const ContactsLink = styled.a`
   color: rgba(256, 256, 256, 0.5);
   text-decoration: none;
   :nth-child(2) {
-    margin-left: 10px;
+    margin-left: 15px;
   }
 
   :hover,
@@ -38,9 +38,9 @@ export const ContactsLink = styled.a`
 
 export const SocialList = styled.ul`
   color: rgba(256, 256, 256, 0.5);
-  font-size: 12px;
+  font-size: 16px;
 
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,26 +63,26 @@ export const SocialLink = styled.a`
 
 export const TechSkillList = styled.ul`
   color: #ffffff;
-  font-size: 12px;
+  font-size: 16px;
   list-style: inside;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `;
 
 export const TechSkillTitle = styled.h2`
   color: #ef784dc5;
 
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `;
 
 export const SoftSkillList = styled.ul`
   color: #ffffff;
-  font-size: 12px;
+  font-size: 16px;
   list-style: inside;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `;
 
 export const SoftSkillTitle = styled.h2`
   color: #ef784dc5;
 
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `;
