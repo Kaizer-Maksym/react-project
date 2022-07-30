@@ -22,14 +22,14 @@ export const Information = () => {
       <Stack>Junior front-end developer</Stack>
       <InfoTitle>Summary</InfoTitle>
       <SummaryText>
-        I am a beginning programmer. I attend online training courses:
-        Full-stack JavaScript developer. I am well-versed in the language, daily
-        engaged in the development and study of new frameworks, the capabilities
-        of the language. I can work as an independent unit in a team. I know a
-        lot, that I do not know - I will find, that I will not find - I will ask
-        my colleagues correctly. I know how to work in a team and I really want
-        to develop professionally. <br /> I am looking for a job or an
-        internship to start a career in IT.
+        I am a beginning JavaScript programmer. I am studying on the online
+        courses: Full-stack JavaScript developer. I am well-versed in the
+        language, daily engaged in the development and study of new frameworks,
+        the capabilities of the language. I can work as an independent unit in a
+        team. I know a lot, that I do not know - I will find, that I will not
+        find - I will ask my colleagues correctly. I know how to work in a team
+        and I really want to develop professionally. <br /> I am looking for a
+        job or an internship to start a career in IT.
       </SummaryText>
       <InfoTitle>Project experience</InfoTitle>
       <ProjectList>

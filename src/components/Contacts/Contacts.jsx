@@ -15,7 +15,7 @@ import {
 } from './Contacts.styled';
 
 import { Photo } from '../Photo/Photo';
-import Avatar from '../Photo/Avatar.jpg';
+import Avatar from '../Photo/my-profile-photo.jpg';
 
 export const Contacts = () => {
   return (
