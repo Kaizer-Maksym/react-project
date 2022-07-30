@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 export const ContactsSection = styled.section`
-  padding: 25px;
-  width: 250px;
+  padding: 20px 30px;
+  width: 280px;
   background-color: #1e2939f1;
 `;
 export const ContactTitle = styled.h2`
@@ -12,7 +12,7 @@ export const ContactTitle = styled.h2`
 `;
 export const ContactsList = styled.ul`
   color: rgba(256, 256, 256, 0.5);
-  font-size: 14px;
+  font-size: 12px;
 
   margin-bottom: 15px;
 `;
@@ -38,7 +38,7 @@ export const ContactsLink = styled.a`
 
 export const SocialList = styled.ul`
   color: rgba(256, 256, 256, 0.5);
-  font-size: 14px;
+  font-size: 12px;
 
   margin-bottom: 15px;
   display: flex;
@@ -48,7 +48,7 @@ export const SocialList = styled.ul`
 
 export const SocialListItem = styled.li`
   &:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 30px;
   }
 `;
 
@@ -63,10 +63,9 @@ export const SocialLink = styled.a`
 
 export const TechSkillList = styled.ul`
   color: #ffffff;
-
+  font-size: 12px;
   list-style: inside;
   margin-bottom: 15px;
-  font-size: 14px;
 `;
 
 export const TechSkillTitle = styled.h2`
@@ -77,8 +76,9 @@ export const TechSkillTitle = styled.h2`
 
 export const SoftSkillList = styled.ul`
   color: #ffffff;
-
+  font-size: 12px;
   list-style: inside;
+  margin-bottom: 15px;
 `;
 
 export const SoftSkillTitle = styled.h2`

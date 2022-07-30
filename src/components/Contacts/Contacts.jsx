@@ -1,10 +1,4 @@
-import {
-  BsMailbox,
-  BsTelephone,
-  BsFacebook,
-  BsGithub,
-  BsLinkedin,
-} from 'react-icons/bs';
+import { BsMailbox, BsTelephone, BsGithub, BsLinkedin } from 'react-icons/bs';
 import {
   ContactsSection,
   TechSkillList,
@@ -51,15 +45,7 @@ export const Contacts = () => {
         </SocialListItem>
         <SocialListItem>
           <SocialLink
-            href="https://www.facebook.com/profile.php?id=100042322982281"
-            target="_blank"
-          >
-            <BsFacebook size="2.2em" />
-          </SocialLink>
-        </SocialListItem>
-        <SocialListItem>
-          <SocialLink
-            href="https://www.linkedin.com/feed/?trk=joogle"
+            href="https://www.linkedin.com/in/maksym-kaizer-ba36b7245/"
             target="_blank"
           >
             <BsLinkedin size="2.2em" />
@@ -87,6 +73,11 @@ export const Contacts = () => {
         <li>Conscientious</li>
         <li>Eager to learn</li>
       </SoftSkillList>
+      <TechSkillTitle>Language skills</TechSkillTitle>
+      <TechSkillList>
+        <li> Ukrainian - native</li>
+        <li>English - elementary</li>
+      </TechSkillList>
     </ContactsSection>
   );
 };
