@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const InfoSection = styled.section`
   width: 800px;
-  padding: 30px;
+  padding: 60px 40px;
 `;
 
 export const Name = styled.h1`

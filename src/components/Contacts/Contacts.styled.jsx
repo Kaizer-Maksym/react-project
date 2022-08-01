@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ContactsSection = styled.section`
-  padding: 20px 30px;
+  padding: 60px 40px;
   width: 370px;
   background-color: #1e2939f1;
 `;

@@ -13,23 +13,20 @@ import {
   ProjectDescription,
 } from './PersonalInfo.styled';
 
-import { BsCodeSlash } from 'react-icons/bs';
-
 export const Information = () => {
   return (
     <InfoSection>
       <Name>Maksym Kaizer</Name>
-      <Stack>Junior front-end developer</Stack>
+      <Stack>Junior JavaScript Developer</Stack>
       <InfoTitle>Summary</InfoTitle>
       <SummaryText>
         I am a beginning JavaScript programmer. I am studying on the online
         courses: Full-stack JavaScript developer. I am well-versed in the
-        language, daily engaged in the development and study of new frameworks,
-        the capabilities of the language. I can work as an independent unit in a
-        team. I know a lot, that I do not know - I will find, that I will not
-        find - I will ask my colleagues correctly. I know how to work in a team
-        and I really want to develop professionally. <br /> I am looking for a
-        job or an internship to start a career in IT.
+        language, daily engaged in the development and study of new frameworks.
+        I can work both in a team and independently. If I do not know something
+        - I will google it, if it doestn`t help - I will ask my colleagues for a
+        help. <br /> I am looking for a job or an internship to start a career
+        in IT.
       </SummaryText>
       <InfoTitle>Project experience</InfoTitle>
       <ProjectList>
@@ -44,7 +41,7 @@ export const Information = () => {
             href="https://github.com/Kaizer-Maksym/goit-markup-hw-08"
             target="_blank"
           >
-            <BsCodeSlash size="1.2em" />
+            <b> Git</b>
           </ProjectLink>
           <ProjectDescription>
             <b> [ HTML, SASS, JS, Parcel ]</b> A website with a responsive
@@ -63,7 +60,7 @@ export const Information = () => {
             href="https://github.com/Kaizer-Maksym/icecream"
             target="_blank"
           >
-            <BsCodeSlash size="1.2em" />
+            <b> Git</b>
           </ProjectLink>
           <ProjectDescription>
             <b> [ HTML, SASS, JS, Parcel ]</b> Ice Cream company site. Neat and
@@ -81,7 +78,7 @@ export const Information = () => {
             href="https://github.com/Kaizer-Maksym/filmoteka"
             target="_blank"
           >
-            <BsCodeSlash size="1.2em" />
+            <b> Git</b>
           </ProjectLink>
           <ProjectDescription>
             <b> [ HTML, SASS, JS, REST API, AJAX, Parcel, AXIOS, Notiflix]</b>{' '}
@@ -93,13 +90,13 @@ export const Information = () => {
 
       <WorkTitle>Work abroad </WorkTitle>
       <WorkList>installation of ventilation systems</WorkList>
-      <Duration>2017</Duration>
+      <Duration>2017 - present</Duration>
 
       <WorkTitle>Service in the patrol police</WorkTitle>
       <Duration>2016 - 2017</Duration>
 
       <WorkTitle>Lawyer in construction company</WorkTitle>
-      <Duration>2015-2016</Duration>
+      <Duration>2015 - 2016</Duration>
       <WorkList>
         <li>Preparation of contracts and procedural documents</li>
         <li>Analysis of the current legislation</li>
@@ -110,15 +107,18 @@ export const Information = () => {
       </WorkList>
 
       <InfoTitle>Education</InfoTitle>
+
+      <Facility>IT School GoIT (online-courses)</Facility>
+      <Duration>
+        Full Stack JavaScript Developer <b>|</b> November 2021 - present
+      </Duration>
       <Facility>
         Kyiv University of Law Of the National Academy of Sciences of Ukraine
       </Facility>
 
-      <Duration>Science of law | September 2003 - June 2008 (KYIV)</Duration>
-
-      <InfoTitle>Additional education</InfoTitle>
-      <Facility>IT School GoIT (online-courses)</Facility>
-      <Duration>Full Stack JavaScript Developer | November 2021</Duration>
+      <Duration>
+        Science of law <b>|</b> September 2003 - June 2008 (KYIV)
+      </Duration>
     </InfoSection>
   );
 };
