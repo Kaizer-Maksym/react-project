@@ -22,11 +22,11 @@ export const Information = () => {
       <SummaryText>
         I am a beginning JavaScript programmer. I am studying on the online
         courses: Full-stack JavaScript developer. I am well-versed in the
-        language, daily engaged in the development and study of new frameworks.
-        I can work both in a team and independently. If I do not know something
-        - I will google it, if it doestn`t help - I will ask my colleagues for a
-        help. <br /> I am looking for a job or an internship to start a career
-        in IT.
+        JavaScript, daily engaged in the development and study of new
+        frameworks. I can work both in a team and independently. If I do not
+        know something - I will google it, if it doestn`t help - I will ask my
+        colleagues for a help. <br /> I am looking for a job or an internship to
+        start a career in IT.
       </SummaryText>
       <InfoTitle>Project experience</InfoTitle>
       <ProjectList>

@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const ContactsSection = styled.section`
   padding: 60px 40px;
-  width: 370px;
+  width: 360px;
   background-color: #1e2939f1;
 `;
 export const ContactTitle = styled.h2`
@@ -37,6 +37,7 @@ export const ContactsLink = styled.a`
 `;
 
 export const SocialList = styled.ul`
+  width: 200px;
   color: rgba(256, 256, 256, 0.5);
   font-size: 16px;
 
