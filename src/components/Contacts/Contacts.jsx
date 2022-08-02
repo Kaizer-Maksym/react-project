@@ -45,7 +45,7 @@ export const Contacts = () => {
         </SocialListItem>
         <SocialListItem>
           <SocialLink
-            href="https://www.linkedin.com/in/maksym-kaizer-ba36b7245/"
+            href="https://www.linkedin.com/in/maksym-kaizer/"
             target="_blank"
           >
             <BsLinkedin size="2.2em" />
