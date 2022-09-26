@@ -81,7 +81,7 @@ export const Information = () => {
             <b> Git</b>
           </ProjectLink>
           <ProjectDescription>
-            <b> [ HTML, SASS, JS, REST API, AJAX, Parcel, AXIOS, Notiflix]</b>{' '}
+            <b> [ HTML, SASS, JS, REST API, AJAX, Parcel, AXIOS, Notiflix]</b>
             Application for choosing a movie. Role: Developer.
           </ProjectDescription>
         </li>

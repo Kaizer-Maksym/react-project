@@ -75,8 +75,8 @@ export const Contacts = () => {
       </SoftSkillList>
       <TechSkillTitle>Language skills</TechSkillTitle>
       <TechSkillList>
-        <li> Ukrainian - native</li>
-        <li>English - elementary</li>
+        <li> Ukrainian - Native</li>
+        <li>English - Intermediate</li>
       </TechSkillList>
     </ContactsSection>
   );
